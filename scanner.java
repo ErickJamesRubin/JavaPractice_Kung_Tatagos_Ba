@@ -13,5 +13,7 @@ class Main {
     System.out.println("Age: " + age);
     System.out.println("Salary: " + salary);
 
+    method.close();
+
   }
 }
