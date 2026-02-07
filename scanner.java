@@ -3,10 +3,15 @@ import java.util.Scanner;
 class Main {
   public static void main (String [] args) {
     Scanner method = new Scanner(System.in);
-    System.out.println("PLease input a destined number of your choice: ");
+    System.out.print("Enter your name, age, and salary: ");
 
     String username = method.nextLine();
-    System.out.println("Here is your number: " + username);
+    int age = method.nextInt();
+    float salary = method.nextFloat();
+
+    System.out.println("Name: " + username);
+    System.out.println("Age: " + age);
+    System.out.println("Salary: " + salary);
 
   }
 }
